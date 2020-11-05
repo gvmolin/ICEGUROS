@@ -156,6 +156,7 @@ section, img, div{
 
 .sobre-nos{
     background-color: #495464;
+    
 }
 
 .janela-padrao{
@@ -166,8 +167,8 @@ section, img, div{
 
 .sobre-nos h1{
     color: white;
-    font-size: 3.5vw;
-    font-weight: 800;
+    font-size: 2.5vw;
+    font-weight: 500;
     padding: 2vw;
     padding-top: 4vw;
     text-align: center;
@@ -208,7 +209,7 @@ section, img, div{
     display: inline-block;
     text-align: center;
     position: relative;
-    margin: 4vw;
+    margin: 3vw;
 }
 
 .logoparceiro{
@@ -218,24 +219,28 @@ section, img, div{
 
 .parceiros {
     text-align: center;
+    margin-bottom: 4VW;
 }
 
 .parceiros h1{
     font-weight: 500;
     font-size: 2vw;
     color: #313842;
-    margin-top: 4vw;
+    margin-top: 5vw;
+    margin-bottom: 2vw;
 }
 
 .parceiros h2{
     font-weight: 400;
-    padding: 2vw;
+    padding-top: 2vw;
     font-size: 1.3vw;
     color: #313842;
 }
 
 #gelologo {
-    margin-top: 1vw;
+    margin-top: 1.2vw;
+    margin-left: 0.6vw;
+    
 }
 
 #sensalogo{
@@ -251,7 +256,6 @@ section, img, div{
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 20vh;
-    
     margin-bottom: 2vw;
 
 }
@@ -270,6 +274,26 @@ section, img, div{
     color: #313842;
     margin-bottom: 2vw;
     text-align: center;
+}
+
+.depo{
+    margin-bottom: 5vw;
+}
+
+.galeria{
+    width: 45%;
+    display: inline;
+    margin: 1vw;
+    transition: 0.5s;
+}
+
+.galeria:hover{
+    transform: scale(1.5);
+}
+
+.container-galeria {
+    text-align: center;
+    padding-bottom: 5vw;
 }
 
 /* corpo */
